@@ -32,11 +32,12 @@ aside{
   background-color:  var(--surface-secondary);
   padding: 4rem;
 
-  & .aside-container{
-    max-width: 31rem;
+  /*O & EVITA DE VOCE ESCREVER O ASIDE VARIAS VEZES, MAS SERIA A MESMA COISA QUE ESCREVER ASIDE .ASIDE-CONTAINER*/
+  & .aside-container{ /*tudo dentro do aside*/
+    max-width: 31rem; 
 
-    & > img { /*dentro do aside-container*/
-      margin-top: 2rem;
+    & > img { /*dentro de img*/
+      margin-top: 2rem; 
     }
   }
 
